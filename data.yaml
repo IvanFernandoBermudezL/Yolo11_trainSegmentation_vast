@@ -1,0 +1,6 @@
+train: /root/Yolo11_trainSegmentation-vast/Seg_cunetas_YOLOv11/train/images
+val: /root/Yolo11_trainSegmentation-vast/Seg_cunetas_YOLOv11/valid/images
+test: /root/Yolo11_trainSegmentation-vast/Seg_cunetas_YOLOv11/test/images
+
+nc: 1
+names: ['DITCH']
