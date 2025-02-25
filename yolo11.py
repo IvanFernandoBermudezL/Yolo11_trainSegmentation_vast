@@ -7,7 +7,7 @@ def main():
     # Train 
     model.train(
     data=" ", 
-    epochs=140, 
+    epochs=120, 
     batch=8, 
     imgsz=640, 
     save_period=5)
