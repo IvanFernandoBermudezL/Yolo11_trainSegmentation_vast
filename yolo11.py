@@ -6,7 +6,7 @@ model = YOLO("/root/Yolo11_trainSegmentation_vast/yolo11x-seg.pt")
 def main():
     # Train 
     model.train(
-    data=" ", 
+    data="/root/Yolo11_trainSegmentation_vast/data.yaml", 
     epochs=120, 
     batch=8, 
     imgsz=640, 
