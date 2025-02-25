@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load a COCO-pretrained YOLOv8 model
-model = YOLO(" ")
+model = YOLO("/root/Yolo11_trainSegmentation_vast/yolo11x-seg.pt")
 
 def main():
     # Train 
