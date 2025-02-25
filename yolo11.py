@@ -1,13 +1,13 @@
 from ultralytics import YOLO
 
 # Load a COCO-pretrained YOLOv8 model
-model = YOLO(" ")
+model = YOLO("/root/Yolo11_trainSegmentation_vast/yolo11x-seg.pt")
 
 def main():
     # Train 
     model.train(
     data=" ", 
-    epochs=140, 
+    epochs=120, 
     batch=8, 
     imgsz=640, 
     save_period=5)
